@@ -1,1 +1,13 @@
-we
+First level: 1. Как отказаться от изменений в файле (файлах) находящийся в рабочем каталоге (work directory)?
+- git checkout
+
+Как вернуть файл из индекса в рабочий каталог?
+- git restore --staget
+
+Как отменить ошибочный commit ?
+- git reset HEAD^
+- git commit --amend  
+- git revert HEAD 4 первых знака от числа commit при проверке командой git log  --online
+
+
+
